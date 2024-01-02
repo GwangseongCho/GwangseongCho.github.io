@@ -7,8 +7,8 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 
 ## Contents
 
-- [Hyde](#hyde)
-  - [Contents](#contents)
+-	 
+	- [Contents](#contents)
   - [Usage](#usage)
   - [Options](#options)
     - [Sidebar menu](#sidebar-menu)
@@ -23,7 +23,7 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 
 ## Author
 
-**Mark Otto**
+**Gwangseong Cho**
 - <https://github.com/gwangseongcho>
 
 
