@@ -1,4 +1,4 @@
-## Github.io Info
+# Github.io Info
 Build with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/poole/hyde) (jekyll theme)
 ## Contents
 
@@ -7,6 +7,8 @@ Build with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/poole/hyd
 - [Thoughts](#thoughts)
 - [Author](#author)
 - [License](#license)
+
+### Mathematics
 
 
 ## Author
