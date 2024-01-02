@@ -2,7 +2,7 @@
 Build with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/poole/hyde) (jekyll theme)
 ## Contents
 
--	 
+-	 [Info](#Info)
 	- [Contents](#contents)
   - [Usage](#usage)
   - [Options](#options)
