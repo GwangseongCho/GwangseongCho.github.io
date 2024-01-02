@@ -18,10 +18,10 @@ title: "Seong's Notes"
 tagline: ""
 description: ""
 url: https://gwangseongcho.github.io
-baseurl: "https://gwangseongcho.github.io"
+baseurl: ""
 
 author:
-  name: "Yang Xiaozhou"
+  name: "Gwangseong Cho"
 
 paginate: 10
 
