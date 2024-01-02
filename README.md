@@ -2,11 +2,9 @@
 Build with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/poole/hyde) (jekyll theme)
 ## Contents
 
-- [Info](#Info)
-- [Contents](#contents)
-	- [Mathematics](#mathematics)
-	- [Computer Science](#cs)
- 	- [Thoughts](#thoughts)
+- [Mathematics](#mathematics)
+- [Computer Science](#cs)
+- [Thoughts](#thoughts)
 - [Author](#author)
 - [License](#license)
 
