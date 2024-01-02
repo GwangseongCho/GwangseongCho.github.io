@@ -14,14 +14,14 @@ highlighter: rouge
 # permalink:        pretty
 
 # Setup
-title: "Xiaozhou's Notes"
+title: "Seong's Notes"
 tagline: ""
 description: ""
 url: https://gwangseongcho.github.io
 baseurl: ""
 
 author:
-  name: "Yang Xiaozhou"
+  name: "Cho Gwangseong"
 
 paginate: 10
 paginate_path: "/blog/page:num/"
@@ -30,9 +30,12 @@ paginate_path: "/blog/page:num/"
 # version:          2.1.0
 
 github:
-  repo: https://github.com/yangxiaozhou/yangxiaozhou.github.io
+  repo: https://github.com/gwangseongcho/gwangseongcho.github.io
 
 plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-commonmark-ghpages
+
+disqus:
+  shortname: gwangseongcho
