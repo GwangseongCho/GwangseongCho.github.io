@@ -1,33 +1,25 @@
 # Dependencies
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  toc_levels: 1..2
-  # parse_block_html: true
-
-# markdown: CommonMarkGhPages
-
-highlighter: rouge
+markdown: redcarpet
+highlighter: pygments
 
 # Permalinks
-# permalink:        pretty
+permalink: pretty
+relative_permalinks: true
 
 # Setup
-title: "Seong's Notes"
-tagline: ""
-description: ""
-url: https://gwangseongcho.github.io
-baseurl: ""
+title: Hyde
+tagline: "A Jekyll theme"
+description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url: http://gwangseongcho.github.io
+baseurl: /
 
 author:
   name: "Cho Gwangseong"
 
 paginate: 10
-paginate_path: "/blog/page:num/"
 
 # Custom vars
-# version:          2.1.0
+version: 2.1.0
 
 github:
   repo: https://github.com/gwangseongcho/gwangseongcho.github.io
