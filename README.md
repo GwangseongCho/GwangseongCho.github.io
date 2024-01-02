@@ -8,8 +8,11 @@ Build with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/poole/hyd
 - [Author](#author)
 - [License](#license)
 
-### Mathematics
+## Mathematics
 
+## Computer Science
+
+## Thoughts
 
 ## Author
 
