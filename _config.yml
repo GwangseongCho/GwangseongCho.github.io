@@ -18,7 +18,7 @@ title: "Seong's Notes"
 tagline: ""
 description: ""
 url: https://gwangseongcho.github.io
-baseurl: ""
+baseurl: "https://gwangseongcho.github.io"
 
 author:
   name: "Yang Xiaozhou"
