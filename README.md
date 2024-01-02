@@ -24,6 +24,4 @@ Build with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/poole/hyd
 
 ## License
 
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
+Open sourced under the [MIT license](LICENSE.md)
