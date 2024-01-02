@@ -26,3 +26,6 @@ paginate: 5
 
 github:
   repo: https://github.com/poole/hyde
+
+plugins:
+  - jekyll-paginate
