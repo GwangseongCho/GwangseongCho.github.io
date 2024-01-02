@@ -3,7 +3,7 @@ Build with [Jekyll](http://jekyllrb.com) and [Hyde](https://github.com/poole/hyd
 ## Contents
 
 - [Mathematics](#mathematics)
-- [Computer Science](#cs)
+- [Computer Science](#computerscience)
 - [Thoughts](#thoughts)
 - [Author](#author)
 - [License](#license)
