@@ -1,31 +1,38 @@
 # Dependencies
+
 markdown: kramdown
 kramdown:
   input: GFM
   toc_levels: 1..2
-highlighter: pygments
+  # parse_block_html: true
+
+# markdown: CommonMarkGhPages
+
+highlighter: rouge
 
 # Permalinks
-permalink: pretty
-relative_permalinks: true
+# permalink:        pretty
 
 # Setup
-title: "GwangseongCho"
+title: "Xiaozhou's Notes"
 tagline: ""
 description: ""
-url: http://gwangseongcho.github.io
-baseurl: http://gwangseongcho.github.io/poole
+url: https://gwangseongcho.github.io
+baseurl: ""
 
 author:
-  name: GwangseongCho"
+  name: "Yang Xiaozhou"
 
-paginate: 5
+paginate: 10
+paginate_path: "/blog/page:num/"
 
 # Custom vars
-#version: 2.1.0
+# version:          2.1.0
 
 github:
-  repo: https://github.com/poole/hyde
+  repo: https://github.com/yangxiaozhou/yangxiaozhou.github.io
 
 plugins:
   - jekyll-paginate
+  - jekyll-archives
+  - jekyll-commonmark-ghpages
