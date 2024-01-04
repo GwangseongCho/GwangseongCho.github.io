@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Göde's Ontological Proof
+title: Gödel's Ontological Proof
 category: Mathematics
 ---
 
