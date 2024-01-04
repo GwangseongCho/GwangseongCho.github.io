@@ -1,6 +1,5 @@
 ---
 layout: post
-title: What is mathematics?
+title: What is Mathematics?
 category: Mathematics
 ---
-
