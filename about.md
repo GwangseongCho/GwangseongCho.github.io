@@ -81,7 +81,7 @@ title: About Me
     <br>
 </p>
 
-- Mentoring low-income students, volunteering in rural area for 2days, and receive $3800 as scholarship.
+- Mentoring students, volunteering in rural area for days, and receive $3800 as scholarship.
 - YouTube interview video - https://www.youtube.com/watch?v=OH2tH9OfCHo&t=1m30s 
 
 ## Skills
