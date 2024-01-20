@@ -84,6 +84,8 @@ title: About Me
 - Mentoring low-income students, volunteering in rural area for 2days, and receive $3800 as scholarship.
 - YouTube interview video - https://www.youtube.com/watch?v=OH2tH9OfCHo&t=1m30s 
 
-## Misc. Information
-
-* Languages: English (fluent), Korean (fluent)
+## Skills
+- Technical Skills
+  - Adapted C/C++, Python , Java , LaTex
+- Certifications, Interests, Honors/Awards, or Languages
+  - Native Korean speaker; Fluent in English
