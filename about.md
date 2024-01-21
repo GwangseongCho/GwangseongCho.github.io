@@ -4,13 +4,15 @@ title: About Me
 ---
 
 ---
-# Gwangseong Cho  
+
+# Gwangseong Cho
 
 - Email : cho.gwangseong@gmail.com
 - LinkedIn : www.linkedin.com/in/gwangseong-cho
 - Address : Lubbock, Tx 79401
 
 ## Education
+
 <p style="text-align:left;">
     <strong>Texas Tech University</strong>, Lubbock, Texas 
     <span style="float:right;">
@@ -24,8 +26,6 @@ title: About Me
 <br>
 <span>Relevant Coursework: Data Structure and Algorithms, Analysis Algorithms, Data Science Concentration</span>
 </p>
-
-
 
 <p style="text-align:left;">
     <strong>Angelo State Unversity</strong>, San Angelo, Texas 
@@ -46,7 +46,7 @@ title: About Me
     <br> 
     <em>Teaching assistant</em>
     <span style="float:right;">
-        Dates, e.g., December 2021 – August 2022
+    December 2021 – August 2022
     </span>
     <br>
 </p>
@@ -60,7 +60,7 @@ title: About Me
     <br> 
     <em>Military Engineering Squad Leader</em>
     <span style="float:right;">
-        Dates, e.g., September 2019 – April 2021
+       September 2019 – April 2021
     </span>
     <br>
 </p>
@@ -76,15 +76,16 @@ title: About Me
     <br> 
     <em>Volunteer and Participant</em>
     <span style="float:right;">
-        2023
+        March 2023 - December 2023
     </span>
     <br>
 </p>
 
 - Mentoring students, volunteering in rural area for days, and receive $3800 as scholarship.
-- YouTube interview video - https://www.youtube.com/watch?v=OH2tH9OfCHo&t=1m30s 
+- YouTube interview video - https://www.youtube.com/watch?v=OH2tH9OfCHo&t=1m30s
 
 ## Skills
+
 - Technical Skills
   - Adapted C/C++, Python , Java , LaTex
 - Certifications, Interests, Honors/Awards, or Languages
