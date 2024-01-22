@@ -69,7 +69,7 @@ title: About Me
 - Fulfill 24-hour duties to ensure smooth operation of the Command Control Center and safety of soldiers and firearms.
 - supervises and manages other soldiers and first-line supervisors.
 
-## Involvement
+## Involvement & Awards
 
 <p style="text-align:left;">
     <strong>World Vision South (Dream Leaders) </strong>
@@ -83,6 +83,15 @@ title: About Me
 
 - Mentoring students, volunteering in rural area for days, and receive $3800 as scholarship.
 - YouTube interview video - https://www.youtube.com/watch?v=OH2tH9OfCHo&t=1m30s
+
+<p style="text-align:left;">
+    <strong>Presidential Transfer Scholarship</strong> 
+    <span style="float:right;">
+        Fall 2023 – Spring 2024
+    </span>
+    <br>
+    Awarded Presidential Transfer Scholarship and receive $3000 as scholarship.
+</p>
 
 ## Skills
 
