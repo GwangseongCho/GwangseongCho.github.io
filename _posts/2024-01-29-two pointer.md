@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Array and Hashing
+title: Two Pointer
 category: Computer Science
 ---
 
