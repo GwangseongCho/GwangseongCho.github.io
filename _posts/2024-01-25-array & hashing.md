@@ -2,6 +2,7 @@
 layout: post
 title: Array and Hashing
 category: Computer Science
+selected_page: true
 ---
 
 
