@@ -101,9 +101,6 @@ print(solution.threeSum(nums))
 
 ```
 
-    [[-3, -1, 4]]
-
-
 
 ```python
 # Hint 1
@@ -148,12 +145,4 @@ height = [1,8,6,2,5,4,8,3,7]
 
 solution = Solution()
 print(solution.maxArea(height))    
-```
-
-    49
-
-
-
-```python
-
 ```
