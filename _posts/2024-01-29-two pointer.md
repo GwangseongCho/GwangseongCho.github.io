@@ -1,3 +1,10 @@
+---
+layout: post
+title: Array and Hashing
+category: Computer Science
+---
+
+
 ```python
 class Solution:
     def isPalindrome(self, s: str) -> bool:
