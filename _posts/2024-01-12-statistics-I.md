@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Differential Equations I
+title: Statistics
 category: Mathematics
 ---
