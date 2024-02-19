@@ -8,7 +8,7 @@ title: About Me
 # Gwangseong Cho
 
 - Email : cho.gwangseong@gmail.com
-- [Gwangseong Cho-LinkedIn](www.linkedin.com/in/gwangseong-cho)
+- LinkedIn : www.linkedin.com/in/gwangseong-cho
 - Address : Lubbock, Tx 79401
 
 ## Education
@@ -56,7 +56,7 @@ title: About Me
 - Assists the lecturer with creating and delivering learning materials in a course.
 
 <p style="text-align:left;">
-    <strong>Republic of Korea Army</strong>, Republic of Korea
+    <strong>Republic of Korea Army</strong>, , Republic of Korea
     <br> 
     <em>Military Engineering Squad Leader</em>
     <span style="float:right;">
