@@ -73,7 +73,9 @@ $$f(x,y) = C $$
 * Explicit Solution is a form of
 
 $$y = f{(x)}$$ 
+
 * Implicit Solution is a form of
 
 $$f(x,y) = C $$  
+
 
