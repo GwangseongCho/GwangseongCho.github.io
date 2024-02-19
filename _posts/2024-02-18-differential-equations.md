@@ -36,7 +36,7 @@ $$\frac{dy}{dx} + y = e^{x}$$
 
 The order of above equation is one.
 
-**Differential Form**
+#### Differential Form
 
 $$M(x,y)dx + N(x,y)dy = 0$$
 
