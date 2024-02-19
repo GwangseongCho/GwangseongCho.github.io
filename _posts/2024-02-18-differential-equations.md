@@ -8,9 +8,9 @@ category: Mathematics
 >The *differential* and *equation* suggest solving some kind of equation that contains derivatives $y'$, $y''$
 > Solving differential equations such as $y'' + 2y' + y = 0$ for unknown fuction $y = \phi\left(x\right)$.
 
-# Chapter 1
+## Chapter 1
 
-## 1.1 Definitions and Terminology
+### 1.1 Definitions and Terminology
 
 #### Definition 1.1.1
 Differential Equation
