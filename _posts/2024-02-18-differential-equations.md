@@ -12,7 +12,7 @@ category: Mathematics
 
 ## 1.1 Definitions and Terminology
 
-### Definition 1.1.1
+#### Definition 1.1.1
 >**Differential Equation**\
 >An equation containing the derivatives for one or more unknown fucntions (or dependent variable), with respect to one or more independent variables, is said to be a **differential equation (DE)**
 
@@ -57,5 +57,10 @@ $$ a_n(x)y^{(n)}+a_{n-1}(x)y^{(n-1)} + ... +a_1(x)y'+a_0(x)y - g(x) = 0$$
 > $$(1-y)y' +2y = e^{x}$$
 
 
-#### Solution
+### Solutions
+#### Solution of an ODE
 >Any function ,$\phi$ defined on an interval I and possessing at least n derivatives that are continuous on I, which when substituted into an -order ordinary differential equation reduces the equation to an identity, is said to be a solution of the equation on the interval.
+In other words, a solution of an nth-order oridinary differential equation is a form of
+$$y = f{(x)}$$ 
+or
+$$f(x,y) = C $$ 
