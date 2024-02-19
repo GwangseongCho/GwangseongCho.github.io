@@ -19,13 +19,19 @@ Differential Equation
 
 #### Classification by Type
 If a differential equation contains only ordinary derivatives of one or more unknown fucntions with resprect to a single independent variable, it is said to be an **ordinary differential equation (ODE)**.
-> Example 1.1.1
+> Example 1.1.1. 
 > $$\frac{dy}{dx} + y = e^{x}$$
 
 
 If an equation involving partial derivatives of one or more unknown functions of two or more independent variables is a **partial differential equation (PDE)**.
-> Example 1.1.2
+> Example 1.1.2. 
 > $$\frac{\partial^2 y}{\partial x^2} + y = 0$$
 
+#### Classification by Order
+The order of a differential eqaution is the order of the highest derivative in the equation.
+$$\frac{dy}{dx} + y = e^{x}$$
+
+**differential form** 
+$$M(x,y)dx + N(x,y)dy = 0$$
 
 
