@@ -8,9 +8,9 @@ category: Mathematics
 >The *differential* and *equation* suggest solving some kind of equation that contains derivatives $y'$, $y''$
 > Solving differential equations such as $y'' + 2y' + y = 0$ for unknown fuction $y = \phi\left(x\right)$.
 
-## Chapter 1
+# Chapter 1
 
-### Introduction to Differential Equations
+## 1.1 Definitions and Terminology
 
 #### Definition 1.1.1
 Differential Equation
@@ -44,6 +44,7 @@ The order of above equation is one.
 An nth-order oridinary differential equation is called to be linear if *F* is linear in $y,y',...,y^{(n)}$. This means that an nth-order ODE is linear when is
 
 $$ a_n(x)y^{(n)}+a_{n-1}(x)y^{(n-1)} + ... +a_n(x)y'+a_0(x)y - g(x) = 0$$
+
 
 
 
