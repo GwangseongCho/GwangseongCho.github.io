@@ -60,6 +60,7 @@ $$ a_n(x)y^{(n)}+a_{n-1}(x)y^{(n-1)} + ... +a_1(x)y'+a_0(x)y - g(x) = 0$$
 ### Solutions
 #### Solution of an ODE
 >Any function,  $\phi$ defined on an interval I and possessing at least n derivatives that are continuous on I, which when substituted into an -order ordinary differential equation reduces the equation to an identity, is said to be a solution of the equation on the interval.
+
 In other words, a solution of an nth-order oridinary differential equation is simply a form of
 
 $$y = f{(x)}$$ 
