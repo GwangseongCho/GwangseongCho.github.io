@@ -70,3 +70,10 @@ or
 $$f(x,y) = C $$ 
 
 ### Explicit and Implicit Solutions
+* Explicit Solution is a form of
+
+$$y = f{(x)}$$ 
+* Implicit Solution is a form of
+
+$$f(x,y) = C $$  
+
