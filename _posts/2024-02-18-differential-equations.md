@@ -47,5 +47,13 @@ An nth-order oridinary differential equation is called to be linear if *F* is li
 $$ a_n(x)y^{(n)}+a_{n-1}(x)y^{(n-1)} + ... +a_n(x)y'+a_0(x)y - g(x) = 0$$
 
 
+> Examlple 1.1.4
+> Linear
+> 
+> $$y'' -2y' + y = 0$$
+> 
+> Nonlinear
+> 
+> $$(1-y)y' +2y = e^{x}$$
 
 
