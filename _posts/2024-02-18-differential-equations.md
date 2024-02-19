@@ -31,8 +31,9 @@ If an equation involving partial derivatives of one or more unknown functions of
 
 #### Classification by Order
 The order of a differential eqaution is the order of the highest derivative in the equation.
-
-$$\frac{dy}{dx} + y = e^{x}$$
+> Examlple 1.1.3
+> 
+> $$\frac{dy}{dx} + y = e^{x}$$
 
 The order of above equation is one.
 
