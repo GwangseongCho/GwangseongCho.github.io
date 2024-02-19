@@ -80,4 +80,5 @@ $$f(x,y) = C $$
 
 ### Families of Solutions
 The study of DE is similar to that of intergral at calculus. A solving the DE is same as finding an antiderivate or indefinite integral in calculus.\
-For example, when solving a first-order DE $F(x,y,y') = 0$ we usually get a solution that contains a constant c. A solution $G(x,y,c) = 0$ called a **one-parameter family of solutions**. When solving an nth-order DE $F(x,y,y',...,y^{(n)}) = 0$ we get an nth-parameter family of solutions $G(x,y,c_1,c_2,...,c_n) = 0$ called **nth-parameter family of solutions**
+For example, when solving a first-order DE $F(x,y,y') = 0$ we usually get a solution that contains a constant c. A solution $G(x,y,c) = 0$ called a **one-parameter family of solutions**.\
+When solving an nth-order DE $F(x,y,y',...,y^{(n)}) = 0$ we get an nth-parameter family of solutions $G(x,y,c_1,c_2,...,c_n) = 0$ called **nth-parameter family of solutions**
