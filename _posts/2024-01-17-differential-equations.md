@@ -29,9 +29,9 @@ If an equation involving partial derivatives of one or more unknown functions of
 
 #### Classification by Order
 The order of a differential eqaution is the order of the highest derivative in the equation.
-$$\frac{dy}{dx} + y = e^{x}$$
+$$ \frac{dy}{dx} + y = e^{x} $$
 
 **differential form**\
-$$M(x,y)dx + N(x,y)dy = 0$$
+$$ M(x,y)dx + N(x,y)dy = 0 $$
 
 
