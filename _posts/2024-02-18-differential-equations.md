@@ -36,8 +36,14 @@ $$\frac{dy}{dx} + y = e^{x}$$
 
 The order of above equation is one.
 
-#### Differential Form
+> **Differential Form**
+>
+>$$M(x,y)dx + N(x,y)dy = 0$$
 
-$$M(x,y)dx + N(x,y)dy = 0$$
+#### Classification by Linearity
+An nth-order oridinary differential equation is called to be linear if *F* is linear in $y,y',...,y^{(n)}$. This means that an nth-order ODE is linear when is
+
+$$ a_n(x)y^{(n)}+a_{n-1}(x)y^{(n-1)} + ... +a_n(x)y'+a_0(x)y - g(x) = 0$$
+
 
 
