@@ -8,7 +8,7 @@ title: About Me
 # Gwangseong Cho
 
 - Email : cho.gwangseong@gmail.com
-- LinkedIn : www.linkedin.com/in/gwangseong-cho
+- [Gwangseong Cho-LinkedIn](www.linkedin.com/in/gwangseong-cho)
 - Address : Lubbock, Tx 79401
 
 ## Education
