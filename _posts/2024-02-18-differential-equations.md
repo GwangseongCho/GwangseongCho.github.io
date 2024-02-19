@@ -48,10 +48,12 @@ $$ a_n(x)y^{(n)}+a_{n-1}(x)y^{(n-1)} + ... +a_1(x)y'+a_0(x)y - g(x) = 0$$
 
 
 > Examlple 1.1.4\
-> Linear\
+> Linear
+> 
 > $$y'' -2y' + y = 0$$
 > 
-> Nonlinear\ 
+> Nonlinear
+> 
 > $$(1-y)y' +2y = e^{x}$$
 
 
