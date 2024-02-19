@@ -44,16 +44,14 @@ The order of above equation is one.
 #### Classification by Linearity
 An nth-order oridinary differential equation is called to be linear if *F* is linear in $y,y',...,y^{(n)}$. This means that an nth-order ODE is linear when is
 
-$$ a_n(x)y^{(n)}+a_{n-1}(x)y^{(n-1)} + ... +a_n(x)y'+a_0(x)y - g(x) = 0$$
+$$ a_n(x)y^{(n)}+a_{n-1}(x)y^{(n-1)} + ... +a_1(x)y'+a_0(x)y - g(x) = 0$$
 
 
-> Examlple 1.1.4
-> Linear
-> 
+> Examlple 1.1.4\
+> Linear\
 > $$y'' -2y' + y = 0$$
 > 
-> Nonlinear
-> 
+> Nonlinear\ 
 > $$(1-y)y' +2y = e^{x}$$
 
 
