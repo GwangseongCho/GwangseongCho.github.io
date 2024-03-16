@@ -84,3 +84,5 @@ For example, when solving a first-order DE $F(x,y,y') = 0$ we usually get a solu
 When solving an nth-order DE $F(x,y,y',...,y^{(n)}) = 0$ we get an nth-parameter family of solutions $G(x,y,c_1,c_2,...,c_n) = 0$ called **nth-parameter family of solutions**
 
 ## 1.2 Initial-Value Problems
+
+  #### 
