@@ -85,4 +85,3 @@ When solving an nth-order DE $F(x,y,y',...,y^{(n)}) = 0$ we get an nth-parameter
 
 ## 1.2 Initial-Value Problems
 
-  #### 
