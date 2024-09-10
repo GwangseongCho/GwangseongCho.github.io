@@ -5,16 +5,16 @@ category: Mathematics
 ---
 
 ## Introduction
->The *differential* and *equation* suggest solving some kind of equation that contains derivatives $y'$, $y''$
+> The *differential* and *equation* suggest solving some kind of equation that contains derivatives $y'$, $y''$
 > Solving differential equations such as $y'' + 2y' + y = 0$ for unknown fuction $y = \phi\left(x\right)$.
 
-# Chapter 1
+# Chapter 1: Introduction to Differential Equations
 
 ## 1.1 Definitions and Terminology
 
 #### Definition 1.1.1
->**Differential Equation**\
->An equation containing the derivatives for one or more unknown functions (or dependent variable), concerning one or more independent variables, is said to be a **differential equation (DE)**
+> **Differential Equation**\
+> An equation containing the derivatives for one or more unknown functions (or dependent variable), concerning one or more independent variables, is said to be a **differential equation (DE)**
 
 
 ### Classification by Type
@@ -70,11 +70,11 @@ or
 $$f(x,y) = C $$ 
 
 ### Explicit and Implicit Solutions
-* Explicit Solution is a form of
+- Explicit Solution is a form of
 
 $$y = f{(x)}$$
 
-* Implicit Solution is a form of
+- Implicit Solution is a form of
 
 $$f(x,y) = C $$
 
@@ -84,4 +84,3 @@ For example, when solving a first-order DE $F(x,y,y') = 0$ we usually get a solu
 When solving an nth-order DE $F(x,y,y',...,y^{(n)}) = 0$ we get an nth-parameter family of solutions $G(x,y,c_1,c_2,...,c_n) = 0$ called **nth-parameter family of solutions**
 
 ## 1.2 Initial-Value Problems
-
