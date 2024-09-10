@@ -6,7 +6,7 @@ category: Mathematics
 
 # Pre-chapter: Linear Algebra Review
 
-#### System of Linear Algebraic Eqautions
+### System of Linear Algebraic Eqautions
 
 A set of n simultaneous linear algebraic eqautions in n variables
 $$
@@ -17,11 +17,11 @@ $$
 can be written as 
 $$\mathbf{Ax = b}$$
 
-#### Homogenenous Equation
+### Homogenenous Equation
 
 If **b** = 0, the system is said be to **homogeneous**; otherwise, it is **nonhomogeneous**
 
-#### Singularity
+### Singularity
 
 If the coefficient matrix A is **nonsingular**$-$that is, if det $\mathbf{A}$ is not zero$-$then there is a unique solution of the system. Since $\mathbf{A}$ is nonsingular, $\mathbf{A^{-1}}$ exists, and the solution can be found by multiplying each side of $\mathbf{Ax = b} $ on the left by $\mathbf{A^{-1}}$; thus 
 $$\mathbf{x = A^{-1}b}$$
@@ -31,22 +31,20 @@ In particular, the homogeneous problem $\mathbf{Ax = 0}$, has only the trivial s
 On the other hand, if A is singular$-$that is, if det $\mathbf{A}$ is zero$-$then solution do not exist, or do exist but are not unique. Since $\mathbf{A}$ is singular,  $\mathbf{A^{-1}}$ does not exist, $\mathbf{x = A^{-1}b}$ is no longer valid.
 Also, the homogenouse system $\mathbf{Ax = 0}$ has infinitely many solutions in addition to the trivial solution.
 
+### Linear Independence
 
+### Linear Transformation
 
-#### Linear Independence
+### Matrix Inverse & Transpose
 
-#### Linear Transformation
+### Null Space
 
-#### Matrix Inverse & Transpose
+### Column Space
 
-#### Null Space
+### Bases
 
-#### Column Space
+### Spanning Set Theorem
 
-#### Bases
+### Rank & Dimension
 
-#### Spanning Set Theorem
-
-#### Rank & Dimension
-
-#### Eigenvalues & Eigenvector & Eigenspace
+### Eigenvalues & Eigenvector & Eigenspace
