@@ -32,7 +32,7 @@ $$
 In particular, the homogeneous problem $\mathbf{Ax = 0}$, has only the trivial solution.
 - A trivial solution is when $\mathbf{x = 0}$
 
-On the other hand, if A is **singular** $-$ that is, if **det $\mathbf{A}$ is 0** $-$then solution do not exist, or do exist but are not unique. Since $\mathbf{A}$ is singular,  $\mathbf{A^{-1}}$ does not exist, $\mathbf{x = A^{-1}b}$ is no longer valid.
+On the other hand, if A is **singular** $-$ that is, if **det $\mathbf{A}$ is 0** $-$then solution do not exist, or do exist but are not unique. Since $\mathbf{A}$ is singular,  $\mathbf{A^{-1}}$ does not exist, $\mathbf{x = A^{-1}b}$ is no longer valid. 
 Also, the homogenouse system $\mathbf{Ax = 0}$ has infinitely many solutions in addition to the trivial solution.
 
 >**Example 1**
