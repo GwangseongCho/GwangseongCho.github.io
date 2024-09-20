@@ -70,9 +70,9 @@ has non-trivial solution.
 > 
 > <p>Are the vectors  $v_1 = \begin{bmatrix} 1 \\ 4 \\ 5 \end{bmatrix}, v_2 = \begin{bmatrix} 10 \\ 2 \\ 1 \end{bmatrix}, v_3 = \begin{bmatrix} -5 \\ 0 \\ 6 \end{bmatrix}$  linearly independent?<p>
 > then,
-> $c_1 \begin{bmatrix} 1 \\ 4 \\ 5 \end{bmatrix} + c_2 \begin{bmatrix} 10 \\ 2 \\ 1 \end{bmatrix} + c_3 \begin{bmatrix} -5 \\ 0 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix} $
-> then , we get 
-> <p>$\begin{bmatrix} 1 & 10 & -5 & 0 \\ 4 & 2 & 0 & 0 \\ 0 & 1 & 6 & 0 \end{bmatrix} $<p>
+> $c_1 \begin{bmatrix} 1 \\ 4 \\ 5 \end{bmatrix} + c_2 \begin{bmatrix} 10 \\ 2 \\ 1 \end{bmatrix} + c_3 \begin{bmatrix} -5 \\ 0 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix} $ then , we get 
+> <p>$\begin{bmatrix} 1 & 10 & -5 & 0 \\ 4 & 2 & 0 & 0 \\ 0 & 1 & 6 & 0 \end{bmatrix} ~ $\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix} $<p><br>
+> $c_1 = 0 , c_2 = 0 , c_3 = 0 $, so the vectors are linearly independent.
 
 ### Linear Transformation
 **Definition**
@@ -97,6 +97,7 @@ for  all vector $u,v$ in $R^{n}$ and all scalars $c$.
 
 ### Determinant & Matrix Inverse & Transpose
 **Definition**
+
 A numerical property of the matrix is a **determinant**.
 
 Cofatcor expansion 
@@ -108,13 +109,14 @@ Let $A$ be an $n \times n$ matrix. The matrix $A$ is invertible if there is an  
 $$
 AB = I_{n}  and BA = I_{n}
 $$
+
 In this case, the matrix B is called inverse of A, and we write $B = A^{-1}$
 
 > ** Things to know **
 >
-> $AB$ is invertible, and its inverse is $(AB)^{-1} = B^{-1}A^{-1}$.
-> $det(A^{-1}) = \(\frac{1}{det(A)}\)$ when $det(A)$ is not 0. 
-> For any square matrix A, $det(A^{t} = det(A))$.
+> $AB$ is invertible, and its inverse is $(AB)^{-1} = B^{-1}A^{-1}$. <br>
+> $det(A^{-1}) = \(\frac{1}{det(A)}\)$ when $det(A)$ is not 0. <br>
+> For any square matrix A, $det(A^{t} = det(A))$. <br>
 
 
 
