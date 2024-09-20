@@ -95,13 +95,17 @@ for  all vector $u,v$ in $R^{n}$ and all scalars $c$.
 > T(cu) = 1.5(cu) = c(1.5u) = cT(u)
 > $$
 
-### Determinant & Matrix Inverse & Transpose
+### Determinant & Adjugate Matrix
 **Definition**
 
 A numerical property of the matrix is a **determinant**.
+> Things to know
+>
+> * $det(A^{-1}) = \frac{1}{det(A)}$ when $det(A)$ is not 0. <br>
+> * For any square matrix A, $det(A^{T}) = det(A)$. <br>
+> * If $A$ and $B$ are $n \times n$ matrices, then $det(AB) = det(A)det(B)$. <br>
 
-Cofatcor expansion 
-
+### Matrix Inverse & Transpose
 **Definition**
 
 Let $A$ be an $n \times n$ matrix. The matrix $A$ is invertible if there is an  $n \times n$ matrix B such that
@@ -115,11 +119,6 @@ In this case, the matrix B is called inverse of A, and we write $B = A^{-1}$
 > ** Things to know **
 >
 > * $AB$ is invertible, and its inverse is $(AB)^{-1} = B^{-1}A^{-1}$. <br>
-> * $det(A^{-1}) = \frac{1}{det(A)}$ when $det(A)$ is not 0. <br>
-> * For any square matrix A, $det(A^{T}) = det(A)$. <br>
-
-
-
 
 ### Null Space
 
