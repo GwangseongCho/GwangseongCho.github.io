@@ -71,7 +71,7 @@ has non-trivial solution.
 > <p>Are the vectors  $v_1 = \begin{bmatrix} 1 \\ 4 \\ 5 \end{bmatrix}, v_2 = \begin{bmatrix} 10 \\ 2 \\ 1 \end{bmatrix}, v_3 = \begin{bmatrix} -5 \\ 0 \\ 6 \end{bmatrix}$  linearly independent?<p>
 > then,
 > $c_1 \begin{bmatrix} 1 \\ 4 \\ 5 \end{bmatrix} + c_2 \begin{bmatrix} 10 \\ 2 \\ 1 \end{bmatrix} + c_3 \begin{bmatrix} -5 \\ 0 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix} $ then , we get 
-> <p>$\begin{bmatrix} 1 & 10 & -5 & 0 \\ 4 & 2 & 0 & 0 \\ 0 & 1 & 6 & 0 \end{bmatrix} ~ $\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix} $<p><br>
+> <p>$\begin{bmatrix} 1 & 10 & -5 & 0 \\ 4 & 2 & 0 & 0 \\ 0 & 1 & 6 & 0 \end{bmatrix} $ ~ $\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix} $<p><br>
 > $c_1 = 0 , c_2 = 0 , c_3 = 0 $, so the vectors are linearly independent.
 
 ### Linear Transformation
