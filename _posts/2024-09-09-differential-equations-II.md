@@ -47,7 +47,7 @@ A set of vectors ${v_1, v_2,\cdots, v_k}$ is **linearly independent** if the vec
 $$
 x_1v_1 + x_2v_2 + \cdots + x_kv_k = 0
 $$
-has only the trivial solution $x_1 = x_2 = \cdots = x_k = 0$.
+has only the trivial solution $x_1 = x_2 = \cdots = x_k = 0$. 
 A set of vectors ${v_1, v_2,\cdots, v_k}$ is **linearly dependent** if the vector equation 
 $$
 x_1v_1 + x_2v_2 + \cdots + x_kv_k = 0
@@ -59,9 +59,6 @@ has non-trivial solution.
 A **linear transformation** is a transformation $T : R^{n} \rightarrow R^n$ satisfying 
 $$
 T(u+v) = T(u) + T(v)
-$$
----
-$$
 T(cu) = cT(u)
 $$
 
