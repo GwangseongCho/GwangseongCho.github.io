@@ -37,18 +37,13 @@ $$
 In particular, the homogeneous problem $\mathbf{Ax = 0}$, has only the trivial solution.
 - A trivial solution is when $\mathbf{x = 0}$
 
-On the other hand, if A is **singular** $-$ that is, if **det $\mathbf{A}$ is 0** $-$then solution do not exist, or do exist but are not unique. Since $\mathbf{A}$ is singular,  $\mathbf{A^{-1}}$ does not exist, $\mathbf{x = A^{-1}b}$ is no longer valid. 
-
+On the other hand, if A is **singular** $-$ that is, if **det $\mathbf{A}$ is 0** $-$then solution do not exist, or do exist but are not unique. Since $\mathbf{A}$ is singular,  $\mathbf{A^{-1}}$ does not exist, $\mathbf{x = A^{-1}b}$ is no longer valid. <br>
 Also, the homogenouse system $\mathbf{Ax = 0}$ has infinitely many solutions in addition to the trivial solution.
 
 > **Example 1**
 > 
 > <p>$A = \begin{bmatrix} 3 & 6 \\ 2 & 4 \end{bmatrix}$  is a singular matrix because</p>
 > $\det(A) = 3 \times 4 - 6 \times 2 = 12 - 12 = 0$
-
-
-
-
 
 ### Linear Independence
 
@@ -58,7 +53,7 @@ $$
 x_1v_1 + x_2v_2 + \cdots + x_kv_k = 0
 $$
 
-has only the trivial solution $x_1 = x_2 = \cdots = x_k = 0$. 
+has only the trivial solution $x_1 = x_2 = \cdots = x_k = 0$.<br>
 A set of vectors ${v_1, v_2,\cdots, v_k}$ is **linearly dependent** if the vector equation 
 
 $$
