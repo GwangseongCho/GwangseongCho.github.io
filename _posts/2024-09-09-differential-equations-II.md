@@ -64,11 +64,11 @@ has non-trivial solution.
 
 > **Example 1**
 > 
-> Are the vectors  $v_1 = \begin{bmatrix} 1 \\ 4 \\ 5 \end{bmatrix}, v_2 = \begin{bmatrix} 10 \\ 2 \\ 1 \end{bmatrix}, v_3 = \begin{bmatrix} -5 \\ 0 \\ 6 \end{bmatrix}$  linearly independent?
+> <p>Are the vectors  $v_1 = \begin{bmatrix} 1 \\ 4 \\ 5 \end{bmatrix}, v_2 = \begin{bmatrix} 10 \\ 2 \\ 1 \end{bmatrix}, v_3 = \begin{bmatrix} -5 \\ 0 \\ 6 \end{bmatrix}$  linearly independent?<p>
 > then,
 > $c_1 \begin{bmatrix} 1 \\ 4 \\ 5 \end{bmatrix} + c_2 \begin{bmatrix} 10 \\ 2 \\ 1 \end{bmatrix} + c_3 \begin{bmatrix} -5 \\ 0 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix} $
 > 
-> <p>$\begin{bmatrix}[cccc|c] 1 & 10 & -5 \\ 4 & 2 & 0 \\ 0 & 1 & 6 \end{bmatrix}<p>$
+> <p>$\begin{bmatrix}[cccc|c] 1 & 10 & -5 \\ 4 & 2 & 0 \\ 0 & 1 & 6 \end{bmatrix}$<p>
 
 ### Linear Transformation
 
