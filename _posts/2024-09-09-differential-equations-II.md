@@ -43,13 +43,10 @@ Also, the homogenouse system $\mathbf{Ax = 0}$ has infinitely many solutions in 
 
 >**Example 1**
 >
->  Here is a matrix in a blockquote:
->
-> 
-> \begin{bmatrix}
-> a & b \\
-> c & d
-> \end{bmatrix}
+> $A = \begin{bmatrix} 
+> 3 & 6\\
+> 2 & 4\\
+> \end{bmatrix}$
 > is a singular matrix because det $A =  3 \times 4 - 6 \times 2 = 12 -  12 = 0$
 
 
@@ -75,7 +72,7 @@ has non-trivial solution.
 A **linear transformation** is a transformation $T : R^{n} \rightarrow R^n$ satisfying 
 
 $$
-T(u+v) = T(u) + T(v)\\
+T(u+v) = T(u) + T(v)
 T(cu) = cT(u)
 $$
 
