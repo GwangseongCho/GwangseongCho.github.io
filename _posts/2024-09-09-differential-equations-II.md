@@ -68,7 +68,7 @@ has non-trivial solution.
 > then,
 > $c_1 \begin{bmatrix} 1 \\ 4 \\ 5 \end{bmatrix} + c_2 \begin{bmatrix} 10 \\ 2 \\ 1 \end{bmatrix} + c_3 \begin{bmatrix} -5 \\ 0 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix} $
 > then , we get 
-> <p>$\begin{bmatrix} 1 & 10 & -5 \\ 4 & 2 & 0 \\ 0 & 1 & 6 \\ 0 & 0 & 0 \end{bmatrix} $<p>
+> <p>$\begin{bmatrix} 1 & 10 & -5 & 0 \\ 4 & 2 & 0 & 0 \\ 0 & 1 & 6 & 0 \end{bmatrix} $<p>
 
 ### Linear Transformation
 
@@ -79,6 +79,17 @@ T(u+v) = T(u) + T(v)\\
 T(cu) = cT(u)
 $$
 
+for  all vector $u,v$ in $R^{n}$ and all scalars $c$.
+
+> **Example 3**
+>
+> Define $T: R^{2} \rightarrow R^{2}$ by $T(x) = 1.5x$. Verify that $T$ is linear.
+>
+> $$
+> T(u+v) = 1.5(u+v) = 1.5u+1.5v = T(u) + T(v)\\ 
+> T(cu) = 1.5(cu) = c(1.5u) = cT(u)
+> $$
+ 
 
 ### Matrix Inverse & Transpose
 
