@@ -7,6 +7,7 @@ category: Mathematics
 # Pre-chapter: Linear Algebra Review
 
 ### System of Linear Algebraic Eqautions
+**Definition**
 
 A set of n simultaneous linear algebraic eqautions in n variables
 
@@ -23,10 +24,12 @@ $$
 $$
 
 ### Homogenenous Equation
+**Definition**
 
 If **b** = 0, the system is said be to **homogeneous**; otherwise, it is **nonhomogeneous**
 
 ### Singularity
+**Definition**
 
 If the coefficient matrix A is **nonsingular**$-$that is, if **det $\mathbf{A}$ is not 0** $-$ then there is a unique solution of the system. Since $\mathbf{A}$ is nonsingular, $\mathbf{A^{-1}}$ exists, and the solution can be found by multiplying each side of $\mathbf{Ax = b} $ on the left by $\mathbf{A^{-1}}$; thus
 
@@ -46,6 +49,7 @@ Also, the homogenouse system $\mathbf{Ax = 0}$ has infinitely many solutions in 
 > $\det(A) = 3 \times 4 - 6 \times 2 = 12 - 12 = 0$
 
 ### Linear Independence
+**Definition**
 
 A set of vectors ${v_1, v_2,\cdots, v_k}$ is **linearly independent** if the vector equation 
 
@@ -71,6 +75,7 @@ has non-trivial solution.
 > <p>$\begin{bmatrix} 1 & 10 & -5 & 0 \\ 4 & 2 & 0 & 0 \\ 0 & 1 & 6 & 0 \end{bmatrix} $<p>
 
 ### Linear Transformation
+**Definition**
 
 A **linear transformation** is a transformation $T : R^{n} \rightarrow R^n$ satisfying 
 
@@ -89,17 +94,36 @@ for  all vector $u,v$ in $R^{n}$ and all scalars $c$.
 > T(u+v) = 1.5(u+v) = 1.5u+1.5v = T(u) + T(v)\\ 
 > T(cu) = 1.5(cu) = c(1.5u) = cT(u)
 > $$
- 
 
-### Matrix Inverse & Transpose
+### Determinant & Matrix Inverse & Transpose
+**Definition**
+A numerical property of the matrix is a **determinant**.
+
+Cofatcor expansion 
+
+**Definition**
+
+Let $A$ be an $n \times n$ matrix. The matrix $A$ is invertible if there is an  $n \times n$ matrix B such that
+
+$$
+AB = I_{n}  and BA = I_{n}
+$$
+In this case, the matrix B is called inverse of A, and we write $B = A^{-1}$
+
+> ** Things to know **
+>
+> $AB$ is invertible, and its inverse is $(AB)^{-1} = B^{-1}A^{-1}$.
+> $det(A^{-1}) = \(\frac{1}{det(A)}\)$ when $det(A)$ is not 0. 
+> For any square matrix A, $det(A^{t} = det(A))$.
+
+
+
 
 ### Null Space
 
 ### Column Space
 
 ### Bases
-
-### Spanning Set Theorem
 
 ### Rank & Dimension
 
