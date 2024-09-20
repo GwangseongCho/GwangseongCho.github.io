@@ -114,9 +114,9 @@ In this case, the matrix B is called inverse of A, and we write $B = A^{-1}$
 
 > ** Things to know **
 >
-> $AB$ is invertible, and its inverse is $(AB)^{-1} = B^{-1}A^{-1}$. <br>
-> $det(A^{-1}) = \(\frac{1}{det(A)}\)$ when $det(A)$ is not 0. <br>
-> For any square matrix A, $det(A^{t} = det(A))$. <br>
+> * $AB$ is invertible, and its inverse is $(AB)^{-1} = B^{-1}A^{-1}$. <br>
+> * $det(A^{-1}) = \(\frac{1}{det(A)}\)$ when $det(A)$ is not 0. <br>
+> * For any square matrix A, $det(A^{t} = det(A))$. <br>
 
 
 
