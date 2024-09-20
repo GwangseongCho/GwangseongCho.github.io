@@ -99,6 +99,15 @@ for  all vector $u,v$ in $R^{n}$ and all scalars $c$.
 **Definition**
 
 A numerical property of the matrix is a **determinant**.
+
+**Cofactor Expansion**
+
+
+
+**Adjugate Matrix**
+
+
+
 > Things to know
 >
 > * $det(A^{-1}) = \frac{1}{det(A)}$ when $det(A)$ is not 0. <br>
