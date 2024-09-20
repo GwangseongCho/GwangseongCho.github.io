@@ -45,12 +45,12 @@ Also, the homogenouse system $\mathbf{Ax = 0}$ has infinitely many solutions in 
 >
 >  Here is a matrix in a blockquote:
 >
-> ```
+> 
 > \begin{bmatrix}
 > a & b \\
 > c & d
 > \end{bmatrix}
-> ``` is a singular matrix because det $A =  3 \times 4 - 6 \times 2 = 12 -  12 = 0$
+> is a singular matrix because det $A =  3 \times 4 - 6 \times 2 = 12 -  12 = 0$
 
 
 ### Linear Independence
