@@ -72,7 +72,7 @@ has non-trivial solution.
 A **linear transformation** is a transformation $T : R^{n} \rightarrow R^n$ satisfying 
 
 $$
-T(u+v) = T(u) + T(v)
+T(u+v) = T(u) + T(v)\\
 T(cu) = cT(u)
 $$
 
