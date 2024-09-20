@@ -43,7 +43,7 @@ Also, the homogenouse system $\mathbf{Ax = 0}$ has infinitely many solutions in 
 
 > **Example 1**
 > 
-> <span>$A = \begin{bmatrix} 3 & 6 \\ 2 & 4 \end{bmatrix}$ is a singular matrix because $\det(A) = 3 \times 4 - 6 \times 2 = 12 - 12 = 0$</span>
+> <p>$A = \begin{bmatrix} 3 & 6 \\ 2 & 4 \end{bmatrix}$ is a singular matrix because $\det(A) = 3 \times 4 - 6 \times 2 = 12 - 12 = 0$</p>
 
 
 
