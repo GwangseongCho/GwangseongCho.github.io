@@ -192,6 +192,4 @@ This chapter introduced key concepts and distributions for continuous random var
 4. For a beta random variable with $\alpha = 2$ and $\beta = 3$, calculate $E(X)$ and $\text{Var}(X)$.
 5. Verify Tchebysheff’s theorem for a normal random variable with $\mu = 100$, $\sigma = 15$, and $k = 2$.
 
----
-
-Let me know if you need additional refinements or explanations!
+----
