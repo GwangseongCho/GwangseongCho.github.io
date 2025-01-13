@@ -85,9 +85,10 @@ Numerical measures are used to summarize data more precisely than graphical meth
 
 ### Empirical Rule:
 For mound-shaped (normal) distributions:
-- Approximately \(68\%\) of data lies within \(1\) standard deviation of the mean: \( \mu \pm \sigma \).
-- Approximately \(95\%\) lies within \(2\) standard deviations: \( \mu \pm 2\sigma \).
-- Nearly all data lies within \(3\) standard deviations: \( \mu \pm 3\sigma \).
+- Approximately $68\%$ of data lies within $1$ standard deviation of the mean: $ \mu \pm \sigma $.
+- Approximately $95\%$ lies within $2$ standard deviations: $ \mu \pm 2\sigma $.
+- Nearly all data lies within $3$ standard deviations: $ \mu \pm 3\sigma $.
+
 
 ---
 
