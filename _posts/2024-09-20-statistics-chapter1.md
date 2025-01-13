@@ -21,15 +21,27 @@ Probability measures the likelihood of an event occurring, expressed as a number
 
 ---
 
+## 2.2 Probability and Inference
+Statistical inference relies on probability to:
+1. Predict population characteristics based on a sample.
+2. Quantify the uncertainty of conclusions.
+
+---
+
 ## 2.3 A Review of Set Notation
 
 ### Definitions
-- **Sample Space (\( S \))**: The set of all possible outcomes.
+- **Sample Space (\( S \))**: The set of all possible outcomes.  
   Example:
-  $$ S = \{1, 2, 3, 4, 5, 6\} $$
+  $$
+  S = \{1, 2, 3, 4, 5, 6\}
+  $$
 
-- **Event**: A subset of the sample space. Example:
-  $$ A = \{\text{rolling an even number}\} = \{2, 4, 6\} $$
+- **Event**: A subset of the sample space.  
+  Example:
+  $$
+  A = \{\text{rolling an even number}\} = \{2, 4, 6\}
+  $$
 
 - **Union** (\( A \cup B \)): Events in \( A \), \( B \), or both.
 
@@ -39,53 +51,67 @@ Probability measures the likelihood of an event occurring, expressed as a number
 
 ---
 
-## 2.5 Calculating the Probability of an Event
+## 2.4 A Probabilistic Model for an Experiment: The Discrete Case
 
+### Key Components
+1. **Sample Space (\( S \))**.
+2. **Events**: Subsets of \( S \).
+3. **Probability Function (\( P \))**: Assigns probabilities to events.
+
+Example: Rolling a die:  
+$$
+S = \{1, 2, 3, 4, 5, 6\}
+$$
+
+Probability of rolling an even number:  
+$$
+P(\text{even}) = P(\{2, 4, 6\}) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{1}{2}.
+$$
+
+---
+
+## 2.5 Calculating the Probability of an Event: The Sample-Point Method
+
+### Formula
 For a finite sample space:
 $$
 P(A) = \sum_{x \in A} P(x)
 $$
 
-Example:
-For a loaded die where:
+Example: For a loaded die:
 $$
-P(1) = 0.1, \, P(2) = 0.2, \, P(3) = 0.2, \, P(4) = 0.1, \, P(5) = 0.2, \, P(6) = 0.2,
+P(1) = 0.1, \, P(2) = 0.2, \, P(3) = 0.2, \, P(4) = 0.1, \, P(5) = 0.2, \, P(6) = 0.2.
 $$
-the probability of rolling \( \{2, 4, 6\} \) is:
+The probability of rolling \( \{2, 4, 6\} \) is:
 $$
 P(\{2, 4, 6\}) = P(2) + P(4) + P(6) = 0.2 + 0.1 + 0.2 = 0.5.
 $$
 
 ---
 
-## 2.7 Conditional Probability and Independence
+## 2.6 Tools for Counting Sample Points
 
-### Conditional Probability
-The probability of \( A \) given \( B \):
-$$
-P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) > 0.
-$$
+1. **Multiplication Rule**  
+   If an experiment has \( k \) stages, with \( n_1, n_2, \ldots, n_k \) outcomes:
+   $$
+   \text{Total outcomes} = n_1 \cdot n_2 \cdot \ldots \cdot n_k
+   $$
 
-Example:
-If:
-$$
-P(A) = 0.3, \, P(B) = 0.4, \, P(A \cap B) = 0.2,
-$$
-then:
-$$
-P(A \mid B) = \frac{0.2}{0.4} = 0.5.
-$$
+   Example: Tossing a coin and rolling a die:
+   - Coin: \( 2 \) outcomes (\( H, T \)).
+   - Die: \( 6 \) outcomes.
+   - Total outcomes:
+     $$
+     2 \cdot 6 = 12
+     $$
 
----
+2. **Permutations**  
+   Number of ways to arrange \( n \) distinct objects:
+   $$
+   P(n, r) = \frac{n!}{(n-r)!}
+   $$
 
-### Independence
-Events \( A \) and \( B \) are independent if:
-$$
-P(A \cap B) = P(A) \cdot P(B).
-$$
-
----
-
-## Exercises
-1. A bag contains 4 red balls and 6 green balls. If two balls are drawn randomly, what is the probability that both are red?
-2. In a deck of 52 cards, what is the probability of drawing a King or a heart?
+3. **Combinations**  
+   Number of ways to choose \( r \) objects from \( n \) without regard to order:
+   $$
+   C(n, r) = \binom{n}{r} = \frac{n!
