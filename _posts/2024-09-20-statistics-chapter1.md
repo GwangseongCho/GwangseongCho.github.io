@@ -53,4 +53,39 @@ P(1) = 0.1, \, P(2) = 0.2, \, P(3) = 0.2, \, P(4) = 0.1, \, P(5) = 0.2, \, P(6) 
 $$
 the probability of rolling \( \{2, 4, 6\} \) is:
 $$
-P(\{2, 4, 6\}) = P(2) + P(4) + P(6) = 0.2 + 0.1 + 0.2 = 0.
+P(\{2, 4, 6\}) = P(2) + P(4) + P(6) = 0.2 + 0.1 + 0.2 = 0.5.
+$$
+
+---
+
+## 2.7 Conditional Probability and Independence
+
+### Conditional Probability
+The probability of \( A \) given \( B \):
+$$
+P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) > 0.
+$$
+
+Example:
+If:
+$$
+P(A) = 0.3, \, P(B) = 0.4, \, P(A \cap B) = 0.2,
+$$
+then:
+$$
+P(A \mid B) = \frac{0.2}{0.4} = 0.5.
+$$
+
+---
+
+### Independence
+Events \( A \) and \( B \) are independent if:
+$$
+P(A \cap B) = P(A) \cdot P(B).
+$$
+
+---
+
+## Exercises
+1. A bag contains 4 red balls and 6 green balls. If two balls are drawn randomly, what is the probability that both are red?
+2. In a deck of 52 cards, what is the probability of drawing a King or a heart?
