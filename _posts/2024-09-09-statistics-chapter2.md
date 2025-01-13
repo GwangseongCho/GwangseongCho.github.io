@@ -98,9 +98,12 @@ Statistics enable inferences about a population using a sample. For example:
 
 ### Key Idea:
 The sample's characteristics are used as estimates for the population's characteristics, with an associated degree of uncertainty.
+
+---
+
 ## 1.5 Theory and Reality
 
-Statistical theory provides the foundation for making inferences from a sample to a population, but reality often presents challenges that require practical adjustments. 
+Statistical theory provides the foundation for making inferences from a sample to a population, but reality often presents challenges that require practical adjustments.
 
 ### Key Points:
 1. **Assumptions and Practicality**:
@@ -128,9 +131,23 @@ The first chapter introduces the purpose and importance of statistics in address
   - Measures like **mean** and **variance** summarize data.
   - The **empirical rule** helps describe the spread of mound-shaped distributions.
 
-### Exercise Highlights:
-- Exercises focus on constructing histograms, calculating means, variances, and understanding data distributions using real-world examples.
+### Mathematical Summary:
+1. **Sample Mean**:
+   The sample mean is calculated as:
+   $$ \bar{y} = \frac{1}{n} \sum_{i=1}^n y_i $$
+   where $n$ is the number of observations, and $y_i$ are the data values.
 
-The concepts in this chapter lay the groundwork for the deeper statistical methods covered in subsequent chapters.
+2. **Sample Variance**:
+   The sample variance measures the spread of data around the mean:
+   $$ s^2 = \frac{1}{n-1} \sum_{i=1}^n (y_i - \bar{y})^2 $$
 
----
+3. **Standard Deviation**:
+   The standard deviation is the square root of the variance:
+   $$ s = \sqrt{s^2} $$
+
+4. **Empirical Rule**:
+   For a normal distribution:
+   - Approximately $68\%$ of the data lies within $ \mu \pm \sigma $.
+   - Approximately $95\%$ lies within $ \mu \pm 2\sigma $.
+   - Almost all data lies within $ \mu \pm 3\sigma $.
+
