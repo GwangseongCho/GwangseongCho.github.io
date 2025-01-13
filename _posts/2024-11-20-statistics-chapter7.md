@@ -88,7 +88,7 @@ where $S$ is the sample standard deviation.
 
 ## 7.6 The F Distribution
 
-The **F distribution** arises as the ratio of two independent chi-square variables divided by their degrees of freedom. If \( X_1 \sim \chi^2_{\nu_1} \) and \( X_2 \sim \chi^2_{\nu_2} \), then:
+The **F distribution** arises as the ratio of two independent chi-square variables divided by their degrees of freedom. If $\( X_1 \sim \chi^2_{\nu_1} \)$ and $\( X_2 \sim \chi^2_{\nu_2} \)$, then:
 $$
 F = \frac{\frac{X_1}{\nu_1}}{\frac{X_2}{\nu_2}} \sim F_{\nu_1, \nu_2}.
 $$
@@ -101,11 +101,11 @@ $$
 
 ## 7.7 The Relationship Between the t, F, and Chi-Square Distributions
 
-1. If \( Z \sim N(0, 1) \) and \( X \sim \chi^2_\nu \), then:
+1. If $\( Z \sim N(0, 1) \)$ and $\( X \sim \chi^2_\nu \)$, then:
    $$
    t = \frac{Z}{\sqrt{X / \nu}} \sim t_\nu.
    $$
-2. If \( X_1 \sim \chi^2_{\nu_1} \) and \( X_2 \sim \chi^2_{\nu_2} \), then:
+2. If $\( X_1 \sim \chi^2_{\nu_1} \)$ and $\( X_2 \sim \chi^2_{\nu_2} \)$, then:
    $$
    F = \frac{\frac{X_1}{\nu_1}}{\frac{X_2}{\nu_2}} \sim F_{\nu_1, \nu_2}.
    $$
