@@ -154,5 +154,4 @@ In this chapter, we explored:
 
 4. **F-Distribution in Variance Comparison**:
    - Two independent samples have sizes $n_1 = 10$ and $n_2 = 12$ with sample variances $S_1^2 = 15$ and $S_2^2 = 20$, respectively. Test at the 5% significance level whether the two population variances
-::contentReference[oaicite:0]{index=0}
  
