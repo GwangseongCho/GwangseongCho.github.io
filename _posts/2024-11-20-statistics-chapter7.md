@@ -88,13 +88,15 @@ where $S$ is the sample standard deviation.
 
 ## 7.6 The F Distribution
 
-The F distribution arises as the ratio of two independent chi-square variables divided by their degrees of freedom. If \( X_1 \sim \chi^2_{\nu_1} \) and \( X_2 \sim \chi^2_{\nu_2} \), then:
+### Definition
+
+The **F distribution** arises as the ratio of two independent chi-square variables divided by their degrees of freedom. If 
+\( X_1 \sim \chi^2_{\nu_1} \) and \( X_2 \sim \chi^2_{\nu_2} \), then:
 $$
 F = \frac{\frac{X_1}{\nu_1}}{\frac{X_2}{\nu_2}} \sim F_{\nu_1, \nu_2}.
 $$
 
-
-### Applications:
+### Applications
 1. Comparing variances.
 2. Analysis of variance (ANOVA).
 
@@ -102,11 +104,11 @@ $$
 
 ## 7.7 The Relationship Between the t, F, and Chi-Square Distributions
 
-1. If $\( Z \sim N(0, 1) \)$ and $\( X \sim \chi^2_\nu \)$, then:
+1. If \( Z \sim N(0, 1) \) and \( X \sim \chi^2_\nu \), then:
    $$
    t = \frac{Z}{\sqrt{X / \nu}} \sim t_\nu.
    $$
-2. If $\( X_1 \sim \chi^2_{\nu_1} \)$ and $\( X_2 \sim \chi^2_{\nu_2} \)$, then:
+2. If \( X_1 \sim \chi^2_{\nu_1} \) and \( X_2 \sim \chi^2_{\nu_2} \), then:
    $$
    F = \frac{\frac{X_1}{\nu_1}}{\frac{X_2}{\nu_2}} \sim F_{\nu_1, \nu_2}.
    $$
@@ -115,9 +117,11 @@ $$
 
 ## 7.8 Sampling Distributions in Practice
 
-### Practical Considerations:
-1. For small sample sizes, use the $\( t \)$ distribution when the population variance is unknown.
-2. For comparing variances, use the $\( F \)$ distribution.
+### Practical Considerations
+1. For small sample sizes, use the \( t \) distribution when the population variance is unknown.
+2. For comparing variances, use the \( F \) distribution.
+
+
 
 ### Example:
 If $\( X_1, X_2, \ldots, X_5 \)$ are sampled from a normal population with $\( \mu = 10 \)$ and $\( \sigma^2 = 4 \)$, the sampling distribution of $\( \bar{X} \)$ is:
