@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Statistics Chapter 1
+title: Statistics Chapter 2
 category: Mathematics
 ---
 
