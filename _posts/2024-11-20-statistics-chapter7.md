@@ -88,7 +88,7 @@ where $S$ is the sample standard deviation.
 
 ## 7.6 The F Distribution
 
-The **F distribution** arises as the ratio of two independent chi-square variables divided by their degrees of freedom. If $X_1 \sim \chi^2_{\nu_1}$ and $X_2 \sim \chi^2_{\nu_2}$, then:
+The **F distribution** arises as the ratio of two independent chi-square variables divided by their degrees of freedom. If \( X_1 \sim \chi^2_{\nu_1} \) and \( X_2 \sim \chi^2_{\nu_2} \), then:
 $$
 F = \frac{\frac{X_1}{\nu_1}}{\frac{X_2}{\nu_2}} \sim F_{\nu_1, \nu_2}.
 $$
