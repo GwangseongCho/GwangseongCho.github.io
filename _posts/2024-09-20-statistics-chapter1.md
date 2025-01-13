@@ -31,28 +31,30 @@ Statistical inference relies on probability to:
 ## 2.3 A Review of Set Notation
 
 ### Definitions
-1. **Sample Space (\( S \)):** The set of all possible outcomes.
-   - Example: Rolling a die: \( S = \{1, 2, 3, 4, 5, 6\} \).
+- **Sample Space (\( S \))**: The set of all possible outcomes.  
+  **Example**: Rolling a die: \( S = \{1, 2, 3, 4, 5, 6\} \).
 
-2. **Event:** A subset of the sample space.
-   - Example: \( A = \{\text{rolling an even number}\} = \{2, 4, 6\} \).
+- **Event**: A subset of the sample space.  
+  **Example**: \( A = \{\text{rolling an even number}\} = \{2, 4, 6\} \).
 
-3. **Union (\( A \cup B \)):** Events in \( A \), \( B \), or both.
-4. **Intersection (\( A \cap B \)):** Events in both \( A \) and \( B \).
-5. **Complement (\( A^c \)):** Events not in \( A \).
+- **Union (\( A \cup B \))**: Events in \( A \), \( B \), or both.
+
+- **Intersection (\( A \cap B \))**: Events in both \( A \) and \( B \).
+
+- **Complement (\( A^c \))**: Events not in \( A \).
 
 ---
 
 ## 2.4 A Probabilistic Model for an Experiment: The Discrete Case
 
 ### Key Components
-1. **Sample Space (\( S \))**
-2. **Events:** Subsets of \( S \).
-3. **Probability Function (\( P \)):** Assigns probabilities to events.
+1. **Sample Space (\( S \))**.
+2. **Events**: Subsets of \( S \).
+3. **Probability Function (\( P \))**: Assigns probabilities to events.
 
-#### Example: Rolling a Die
-- \( S = \{1, 2, 3, 4, 5, 6\} \).
-- Probability of rolling an even number:
+**Example**: Rolling a die:  
+- \( S = \{1, 2, 3, 4, 5, 6\} \).  
+- Probability of rolling an even number:  
   \[
   P(\text{even}) = P(\{2, 4, 6\}) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{1}{2}.
   \]
@@ -67,9 +69,8 @@ For a finite sample space:
 P(A) = \sum_{x \in A} P(x)
 \]
 
-#### Example
-For a loaded die:
-- \( P(1) = 0.1 \), \( P(2) = 0.2 \), \( P(3) = 0.2 \), \( P(4) = 0.1 \), \( P(5) = 0.2 \), \( P(6) = 0.2 \).
+**Example**: For a loaded die:
+- \( P(1) = 0.1 \), \( P(2) = 0.2 \), \( P(3) = 0.2 \), \( P(4) = 0.1 \), \( P(5) = 0.2 \), \( P(6) = 0.2 \).  
 - Probability of rolling \( \{2, 4, 6\} \):
   \[
   P(\{2, 4, 6\}) = P(2) + P(4) + P(6) = 0.2 + 0.1 + 0.2 = 0.5.
@@ -79,31 +80,31 @@ For a loaded die:
 
 ## 2.6 Tools for Counting Sample Points
 
-### 1. **Multiplication Rule**
-If an experiment has \( k \) stages, with \( n_1, n_2, \ldots, n_k \) outcomes:
-\[
-\text{Total outcomes} = n_1 \cdot n_2 \cdot \ldots \cdot n_k
-\]
-- Example: Tossing a coin and rolling a die:
-  - Coin: \( 2 \) outcomes (\( H, T \)).
-  - Die: \( 6 \) outcomes.
-  - Total outcomes: \( 2 \cdot 6 = 12 \).
+1. **Multiplication Rule**  
+   If an experiment has \( k \) stages, with \( n_1, n_2, \ldots, n_k \) outcomes:
+   \[
+   \text{Total outcomes} = n_1 \cdot n_2 \cdot \ldots \cdot n_k
+   \]
+   **Example**: Tossing a coin and rolling a die:
+   - Coin: \( 2 \) outcomes (\( H, T \)).
+   - Die: \( 6 \) outcomes.
+   - Total outcomes: \( 2 \cdot 6 = 12 \).
 
-### 2. **Permutations**
-Number of ways to arrange \( n \) distinct objects:
-\[
-P(n, r) = \frac{n!}{(n-r)!}
-\]
+2. **Permutations**  
+   Number of ways to arrange \( n \) distinct objects:
+   \[
+   P(n, r) = \frac{n!}{(n-r)!}
+   \]
 
-### 3. **Combinations**
-Number of ways to choose \( r \) objects from \( n \) without regard to order:
-\[
-C(n, r) = \binom{n}{r} = \frac{n!}{r!(n-r)!}
-\]
-- Example: Choosing 2 fruits from 3 (\( A, B, C \)):
-  \[
-  C(3, 2) = \binom{3}{2} = \frac{3!}{2! \cdot (3-2)!} = 3.
-  \]
+3. **Combinations**  
+   Number of ways to choose \( r \) objects from \( n \) without regard to order:
+   \[
+   C(n, r) = \binom{n}{r} = \frac{n!}{r!(n-r)!}
+   \]
+   **Example**: Choosing 2 fruits from 3 (\( A, B, C \)):
+   \[
+   C(3, 2) = \binom{3}{2} = \frac{3!}{2! \cdot (3-2)!} = 3.
+   \]
 
 ---
 
@@ -115,8 +116,8 @@ The probability of \( A \) given \( B \):
 P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) > 0.
 \]
 
-#### Example
-- \( P(A) = 0.3 \), \( P(B) = 0.4 \), \( P(A \cap B) = 0.2 \).
+**Example**:
+- \( P(A) = 0.3 \), \( P(B) = 0.4 \), \( P(A \cap B) = 0.2 \).  
 - \( P(A \mid B) = \frac{0.2}{0.4} = 0.5 \).
 
 ### Independence
@@ -129,19 +130,19 @@ P(A \cap B) = P(A) \cdot P(B).
 
 ## 2.8 Two Laws of Probability
 
-### 1. **Additive Rule**
-For events \( A \) and \( B \):
-\[
-P(A \cup B) = P(A) + P(B) - P(A \cap B).
-\]
+1. **Additive Rule**  
+   For events \( A \) and \( B \):
+   \[
+   P(A \cup B) = P(A) + P(B) - P(A \cap B).
+   \]
 
-### 2. **Complement Rule**
-\[
-P(A^c) = 1 - P(A).
-\]
+2. **Complement Rule**  
+   \[
+   P(A^c) = 1 - P(A).
+   \]
 
-#### Example
-- \( P(A) = 0.6 \), \( P(B) = 0.5 \), \( P(A \cap B) = 0.2 \).
+**Example**:
+- \( P(A) = 0.6 \), \( P(B) = 0.5 \), \( P(A \cap B) = 0.2 \).  
 - \( P(A \cup B) = 0.6 + 0.5 - 0.2 = 0.9 \).
 
 ---
@@ -159,9 +160,9 @@ P(A) = \sum_{i=1}^n P(A \mid B_i) \cdot P(B_i).
 P(B_i \mid A) = \frac{P(A \mid B_i) \cdot P(B_i)}{P(A)}.
 \]
 
-#### Example
-- \( P(B_1) = 0.6 \), \( P(B_2) = 0.4 \).
-- \( P(A \mid B_1) = 0.5 \), \( P(A \mid B_2) = 0.2 \).
+**Example**:
+- \( P(B_1) = 0.6 \), \( P(B_2) = 0.4 \).  
+- \( P(A \mid B_1) = 0.5 \), \( P(A \mid B_2) = 0.2 \).  
 - Find \( P(B_1 \mid A) \):
   \[
   P(A) = (0.5 \cdot 0.6) + (0.2 \cdot 0.4) = 0.38.
@@ -175,7 +176,7 @@ P(B_i \mid A) = \frac{P(A \mid B_i) \cdot P(B_i)}{P(A)}.
 ## 2.13 Summary
 - Probability provides the mathematical foundation for statistical inference.
 - Key concepts include sample spaces, events, independence, and conditional probability.
-- Bayes' Rule and the Law of Total Probability are essential tools for decision-making under uncertainty.
+- Bayes’ Rule and the Law of Total Probability are essential tools for decision-making under uncertainty.
 
 ---
 
@@ -185,4 +186,3 @@ P(B_i \mid A) = \frac{P(A \mid B_i) \cdot P(B_i)}{P(A)}.
 3. Using Bayes’ Rule, calculate the posterior probability given:
    - \( P(B_1) = 0.7, P(B_2) = 0.3 \).
    - \( P(A \mid B_1) = 0.4, P(A \mid B_2) = 0.6 \).
-
