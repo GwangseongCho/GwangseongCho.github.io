@@ -85,13 +85,18 @@ where $S$ is the sample standard deviation.
 3. Approaches the standard normal distribution as $n \to \infty$.
 
 ---
+layout: post
+title: Statistics Chapter 7
+category: Mathematics
+---
+
+# Chapter 7: Sampling Distributions
 
 ## 7.6 The F Distribution
 
 ### Definition
 
-The **F distribution** arises as the ratio of two independent chi-square variables divided by their degrees of freedom. If 
-\( X_1 \sim \chi^2_{\nu_1} \) and \( X_2 \sim \chi^2_{\nu_2} \), then:
+The **F distribution** arises as the ratio of two independent chi-square variables divided by their degrees of freedom. If $X_1 \sim \chi^2_{\nu_1}$ and $X_2 \sim \chi^2_{\nu_2}$, then:
 $$
 F = \frac{\frac{X_1}{\nu_1}}{\frac{X_2}{\nu_2}} \sim F_{\nu_1, \nu_2}.
 $$
@@ -104,11 +109,11 @@ $$
 
 ## 7.7 The Relationship Between the t, F, and Chi-Square Distributions
 
-1. If \( Z \sim N(0, 1) \) and \( X \sim \chi^2_\nu \), then:
+1. If $Z \sim N(0, 1)$ and $X \sim \chi^2_\nu$, then:
    $$
    t = \frac{Z}{\sqrt{X / \nu}} \sim t_\nu.
    $$
-2. If \( X_1 \sim \chi^2_{\nu_1} \) and \( X_2 \sim \chi^2_{\nu_2} \), then:
+2. If $X_1 \sim \chi^2_{\nu_1}$ and $X_2 \sim \chi^2_{\nu_2}$, then:
    $$
    F = \frac{\frac{X_1}{\nu_1}}{\frac{X_2}{\nu_2}} \sim F_{\nu_1, \nu_2}.
    $$
@@ -118,13 +123,14 @@ $$
 ## 7.8 Sampling Distributions in Practice
 
 ### Practical Considerations
-1. For small sample sizes, use the \( t \) distribution when the population variance is unknown.
-2. For comparing variances, use the \( F \) distribution.
+1. For small sample sizes, use the $t$ distribution when the population variance is unknown.
+2. For comparing variances, use the $F$ distribution.
 
+---
 
+### Example
 
-### Example:
-If $\( X_1, X_2, \ldots, X_5 \)$ are sampled from a normal population with $\( \mu = 10 \)$ and $\( \sigma^2 = 4 \)$, the sampling distribution of $\( \bar{X} \)$ is:
+If $X_1, X_2, \ldots, X_5$ are sampled from a normal population with $\mu = 10$ and $\sigma^2 = 4$, the sampling distribution of $\bar{X}$ is:
 $$
 \bar{X} \sim N\left(10, \frac{4}{5}\right).
 $$
@@ -136,17 +142,5 @@ $$
 This chapter introduced key concepts of sampling distributions, including:
 1. The sampling distribution of the sample mean and variance.
 2. The central limit theorem.
-3. Special distributions such as t, chi-square, and F.
+3. Special distributions such as $t$, chi-square, and $F$.
 4. Applications of these distributions in hypothesis testing and estimation.
-
----
-
-## Exercises
-
-1. If $X \sim N(100, 16)$ and $n = 25$, find the probability that $\bar{X}$ lies between 98 and 102.
-2. A sample of size $n = 10$ is drawn from a normal population. Compute the 95% confidence interval for the mean if $\bar{X} = 50$ and $S = 5$.
-3. For two independent samples with variances $S_1^2 = 10$ and $S_2^2 = 15$, test if the variances are equal using the F distribution with $n_1 = 8$ and $n_2 = 10$.
-4. Verify the relationship between the t and chi-square distributions for $t = Z / \sqrt{X / \nu}$.
-5. Simulate the sampling distribution of the mean for $n = 50$ and compare it with the normal distribution.
-
----
