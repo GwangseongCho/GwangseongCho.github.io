@@ -115,11 +115,11 @@ $$
 ## 7.8 Sampling Distributions in Practice
 
 ### Practical Considerations:
-1. For small sample sizes, use the \( t \) distribution when the population variance is unknown.
-2. For comparing variances, use the \( F \) distribution.
+1. For small sample sizes, use the $\( t \)$ distribution when the population variance is unknown.
+2. For comparing variances, use the $\( F \)$ distribution.
 
 ### Example:
-If \( X_1, X_2, \ldots, X_5 \) are sampled from a normal population with \( \mu = 10 \) and \( \sigma^2 = 4 \), the sampling distribution of \( \bar{X} \) is:
+If $\( X_1, X_2, \ldots, X_5 \)$ are sampled from a normal population with $\( \mu = 10 \)$ and $\( \sigma^2 = 4 \)$, the sampling distribution of $\( \bar{X} \)$ is:
 $$
 \bar{X} \sim N\left(10, \frac{4}{5}\right).
 $$
