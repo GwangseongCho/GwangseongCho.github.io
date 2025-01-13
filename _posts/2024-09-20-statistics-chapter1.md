@@ -114,4 +114,105 @@ $$
 3. **Combinations**  
    Number of ways to choose \( r \) objects from \( n \) without regard to order:
    $$
-   C(n, r) = \binom{n}{r} = \frac{n!
+   C(n, r) = \binom{n}{r} = \frac{n!}{r!(n-r)!}
+   $$
+
+   Example: Choosing 2 fruits from 3 (\( A, B, C \)):
+   $$
+   C(3, 2) = \binom{3}{2} = \frac{3!}{2! \cdot (3-2)!} = 3.
+   $$
+
+---
+
+## 2.7 Conditional Probability and Independence
+
+### Conditional Probability
+The probability of \( A \) given \( B \):
+$$
+P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) > 0.
+$$
+
+Example:
+$$
+P(A) = 0.3, \, P(B) = 0.4, \, P(A \cap B) = 0.2.
+$$
+Then:
+$$
+P(A \mid B) = \frac{0.2}{0.4} = 0.5.
+$$
+
+### Independence
+Events \( A \) and \( B \) are independent if:
+$$
+P(A \cap B) = P(A) \cdot P(B).
+$$
+
+---
+
+## 2.8 Two Laws of Probability
+
+1. **Additive Rule**  
+   For events \( A \) and \( B \):
+   $$
+   P(A \cup B) = P(A) + P(B) - P(A \cap B).
+   $$
+
+2. **Complement Rule**  
+   $$
+   P(A^c) = 1 - P(A).
+   $$
+
+Example:
+$$
+P(A) = 0.6, \, P(B) = 0.5, \, P(A \cap B) = 0.2.
+$$
+Then:
+$$
+P(A \cup B) = 0.6 + 0.5 - 0.2 = 0.9.
+$$
+
+---
+
+## 2.10 The Law of Total Probability and Bayes’ Rule
+
+### Law of Total Probability
+For mutually exclusive events \( B_1, B_2, \ldots, B_n \) covering \( S \):
+$$
+P(A) = \sum_{i=1}^n P(A \mid B_i) \cdot P(B_i).
+$$
+
+### Bayes’ Rule
+$$
+P(B_i \mid A) = \frac{P(A \mid B_i) \cdot P(B_i)}{P(A)}.
+$$
+
+Example:
+$$
+P(B_1) = 0.6, \, P(B_2) = 0.4.
+$$
+$$
+P(A \mid B_1) = 0.5, \, P(A \mid B_2) = 0.2.
+$$
+Find \( P(B_1 \mid A) \):
+$$
+P(A) = (0.5 \cdot 0.6) + (0.2 \cdot 0.4) = 0.38.
+$$
+$$
+P(B_1 \mid A) = \frac{0.5 \cdot 0.6}{0.38} = 0.789.
+$$
+
+---
+
+## 2.13 Summary
+- Probability provides the mathematical foundation for statistical inference.
+- Key concepts include sample spaces, events, independence, and conditional probability.
+- Bayes’ Rule and the Law of Total Probability are essential tools for decision-making under uncertainty.
+
+---
+
+## Exercises
+1. A bag contains 4 red balls and 6 green balls. If two balls are drawn randomly, what is the probability that both are red?
+2. In a deck of 52 cards, what is the probability of drawing a King or a heart?
+3. Using Bayes’ Rule, calculate the posterior probability given:
+   - \( P(B_1) = 0.7, P(B_2) = 0.3 \).
+   - \( P(A \mid B_1) = 0.4, P(A \mid B_2) = 0.6 \).
